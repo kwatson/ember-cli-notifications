@@ -1,6 +1,6 @@
 {
-  "name": "ember-cli-notifications",
-  "version": "4.3.3",
+  "name": "@kwatson/ember-cli-notifications",
+  "version": "4.4.0",
   "description": "Atom inspired notification messages for ember-cli",
   "keywords": [
     "ember-addon",
@@ -12,12 +12,11 @@
   "license": "MIT",
   "author": "Jonathan Steele",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ynnoj/ember-cli-notifications"
+    "url": "git+https://github.com/kwatson/ember-cli-notifications.git"
   },
   "scripts": {
     "build": "ember build",
@@ -106,5 +105,10 @@
       "ember-source",
       "loader.js"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kwatson/ember-cli-notifications/issues"
+  },
+  "homepage": "https://github.com/kwatson/ember-cli-notifications#readme",
+  "main": "index.js"
 }
